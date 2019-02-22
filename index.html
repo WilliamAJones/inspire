@@ -7,22 +7,37 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Inspire</title>
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body id="bg-image">
-	<div id="weather">
-		Your Weather Template
+<body class="container-fluid" id="bg-image">
+	<div class="row">
+		<div div class="col-2 offset-10" id="weather">
+			Weather Goes Here
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-4 offset-4" id="clock">
+			Clock Goes Here
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12" id="quote">
+			Quote Goes Here
+		</div>
 	</div>
 
-	<div id="quote">
-		The Quote
-	</div>
-
-	<div>
-		A Todo List
-		<div id="todo-error"></div>
-		<form onsubmit=""></form>
-		<div id="todos"></div>
+	<div class="row">
+		<div class="col-6" id="todolist">
+			To Do List
+			<div id="todo-error"></div>
+			<form onsubmit=""></form>
+			<div id="todos"></div>
+		</div>
+		<div class="col-6" id="todolist">
+			To Do Add Form
+		</div>
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>

@@ -2,3 +2,49 @@
   color: red;
   font-size: 2em;
 }
+#bg-image{
+    background-image: url(./placeholder.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+#weather{
+  text-align: center;
+  font-weight:bolder;
+  font-size:20px;
+  background-color: rgba(0, 0, 0, 0.342);
+  color:rgb(247, 247, 247);
+  text-shadow: -1px -1px black;
+  padding-top: 5vh;
+  min-height: 30vh;
+  border-radius: 50%;
+}
+#clock{
+  text-align: center;
+  font-weight:bolder;
+  font-size:40px;
+  color:rgb(247, 247, 247);
+  text-shadow: -1px -1px black;
+  padding-top: 5vh;
+  min-height: 30vh;
+}
+#quote{
+  text-align: center;
+  font-weight:bolder;
+  font-size:20px;
+  color:rgb(247, 247, 247);
+  text-shadow: -1px -1px black;
+  padding-top: 5vh;
+  min-height: 10vh;
+}
+#todolist{
+  text-align: center;
+  font-weight:bolder;
+  font-size:20px;
+  color:rgb(247, 247, 247);
+  text-shadow: -1px -1px black;
+  padding-top: 5vh;
+  min-height: 10vh;
+
+}

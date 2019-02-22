@@ -8,5 +8,12 @@ export default class Weather {
     // You should probably convert the temperature data to either F or C
     this.city = data.name
     this.kelvin = data.main.temp
+    this.fara = parseFloat((this.kelvin*(9/5)-459.67).toFixed(1))
   }
+  getTemplate(){
+    return `
+    <h1>${this.city}</h1>
+    <h3>${this.fara}°F </h1>
+    `
+}
 }
