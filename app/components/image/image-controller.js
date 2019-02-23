@@ -7,15 +7,17 @@ function drawImage() {
        
       template += _is.Image.getTemplate()
   
-      document.querySelector('#bg-image').innerHTML = template
+      document.getElementById('bg-image').style.backgroundImage=`url(${_is.Image.url})`
       console.log("The image man says:", _is.Image)
   }
   
   export default class ImageController {
   
       constructor() {
-          _is.addSubscriber('image', drawImage)
+          _is.addSubscriber('images', drawImage)
           _is.getImage()
       }
   
   }
+
+  
