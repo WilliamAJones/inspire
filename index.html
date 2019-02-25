@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body class="container-fluid" id="bg-image">
@@ -29,14 +30,15 @@
 	</div>
 
 	<div class="row">
-		<div class="col-6" id="todolist">
-			To Do List
-			<div id="todo-error"></div>
-			<form onsubmit=""></form>
-			<div id="todos"></div>
+		<div class="col-6" id="todolistl">
+
 		</div>
-		<div class="col-6" id="todolist">
-			To Do Add Form
+		<div class="col-6" id="todolistr">
+			<form onsubmit="app.controllers.todoController.addTodo(event)">
+				<label for="todo-List">WHATS WE AMS NEEDS TO DO TODAYS:</label>
+				<input type="text" class="form-control" id="description" placeholder="You ams to types heres...">
+				<button class="myButton" type="submit">ADD TO LIST</button>
+				<small class="form-text text-muted">Why is everything so hard for Tokis?</small></form>
 		</div>
 	</div>
 
