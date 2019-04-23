@@ -59,9 +59,9 @@
 #todolistl{
   text-align: center;
   font-weight:bolder;
-  font-size:20px;
+  font-size:20px; 
   color:rgba(255, 255, 255, 0.479);
-  text-shadow: -1px -1px rgb(255, 255, 255);
+  text-shadow: -1px -1px black;
   padding-top: 5vh;
   padding-right:10vw;
   min-height: 25vh;
@@ -120,3 +120,4 @@ button.myButton {
 .strikethrough{
   text-decoration: line-through;
 }
+
